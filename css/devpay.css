@@ -1,0 +1,87 @@
+.heading{
+    background-color: whitesmoke;
+    height: 80px;
+    width: 600px;
+    border: solid 1px black;    
+}
+
+h1{
+    color: #333;
+    margin: 20px 30px 40px;
+}
+
+.cardreader{
+    margin: 20px;
+}
+
+label{
+    margin-left: 5px;
+}
+
+.payoptions{
+    margin: 10px 0px;
+}
+
+form{
+    width: 500px;
+}
+
+#cardnumber{
+    /* width: 500px;
+    height: 25px; */
+}
+
+/* #firstname, #lastname, #security{
+    width: 200px;
+    height: 25px;
+}
+
+#month, #year{
+    width: 80px;
+    height: 25px;
+    margin-right: 20px;
+} */
+
+img{
+    float: right;
+}
+
+/* Style the input container */
+.input-container {
+    display: flex;
+    width: 500px;
+    margin-top: 5px;
+  }
+  
+  /* Style the form icons */
+  #icon, #visa, #mastercard {
+    padding: 10px;
+    background: whitesmoke;
+    /* min-width: 50px; */
+    text-align: center;
+  }
+  #visa, #mastercard {
+    padding: 10px;
+    background: whitesmoke;
+    /* min-width: 50px; */
+    text-align: center;
+    display: none;
+  }
+  .hideicon{
+      display: block;
+  }
+  .showvisa{
+      display: block;
+  }
+  .showmastercard{
+      display: block;
+  }
+  /* Style the input fields */
+  .input-field {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  ::-webkit-input-placeholder{
+    padding-left: 300px;
+}

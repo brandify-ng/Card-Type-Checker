@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/devpay.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Add a Billing Method</h1>
+        </div>
+        <!-- <div class="payoptions">
+            <input type="radio" name="options" id="paywithcard" value="paywithcard"><label for="paywithcard">Pay with
+                Card</label>
+            <input type="radio" name="options" id="paywithbank" value="paywithbank"><label for="paywithbank">Bank
+                Transfer</label>
+            <input type="radio" name="options" id="paywithqr" value="paywithqr"><label for="paywithqr">Pay with QR
+                Code</label>
+        </div> -->
+        <div class="cardreader">
+            <form action="">
+                <label for="cardnumber">Card Number</label><img src="images/payments.png" alt="payments">
+                <!-- <i class="fa fa-credit-card icon"></i>
+                <input type="text" name="cardnumber" id="cardnumber" class="fa fa-lg" placeholder="&#xf09d"><br> -->
+                <div class="input-container">
+                    <div class="cardtype" id="cardtype">
+                        <i class="fa fa-credit-card fa-lg" id="icon"></i>
+                        <i class="fa fa-cc-visa fa-lg" id="visa"></i>
+                        <i class="fa fa-cc-mastercard fa-lg" id="mastercard"></i>
+                    </div>
+                    <input type="text" name="cardnumber" id="cardnumber" class="input-field fa"
+                        placeholder="&#xf023 Securely Stored" maxlength="16">
+                </div>
+                <!-- <label for="firstname">First Name</label><br>
+                <input type="text" name="firstname" id="firstname"><br>
+                <label for="lastname">Last Name</label><br>
+                <input type="text" name="lastname" id="lastname"><br>
+                <label for="expiry">Expires on</label><br>
+                <input type="number" name="month" id="month" placeholder="MM" min="01" max="12"><input type="number" name="year" id="year" placeholder="YY" min="2017" max="2025"><br>
+                <label for="security">Security Code</label><br>
+                <input type="text" name="security" id="security" placeholder="CVV"> -->
+            </form>
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="js/devpay.js"></script>
+</body>
+
+</html>
